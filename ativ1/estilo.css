@@ -140,26 +140,134 @@
     width: 100px;
     height: 200px;
     display: flex;
-    gap: 20px;
     align-items: center;
+    flex-direction: column;
+ 
     
 }
 
 .filha10{
     background-color: gray;
-    width: 150px;
+    width: 180px;
     height: 200px;
     display: flex;
-    gap: 20px;
     align-items: center;
-    
+    flex-direction: column;
 }
 
+.neta7{
+    margin-top: 10px;
+    width: 85px;
+    height: 40px;
+    background-color: rgb(8, 77, 71);
+}
 
+.neta4{
+    width: 85px;
+    height: 75px;
+    background-color: rgb(219, 88, 0);
+}
 
+.neta5{
+    width: 85px;
+    height: 30px;
+    background-color: rgb(155, 0, 0);
+}
+
+.neta6{
+    width: 85px;
+    height: 30px;
+    background-color: rgb(255, 251, 8);
+    display: flex;
+    flex-direction: row;
+}
+
+.bisneta1{
+    width: 15px;
+    height: 5px;
+    background-color: rgb(209, 112, 0);
+}
+
+.bisneta2{
+    width: 15px;
+    height: 5px;
+    background-color: rgb(226, 102, 0);
+}
 
 .neta{
     width: 50px;
     height: 50px;
     background-color: rgb(8, 77, 71);
+}
+
+.neta8{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(8, 77, 71);
+}
+
+.neta9{
+    width: 65px;
+    height: 20px;
+    background-color: brown;
+}
+
+.invisivel{
+    margin: 5px;
+    flex-direction: column;
+}
+
+.neta10{
+    background-color: yellow;
+    width: 80px;
+    height: 20px;
+}
+
+.invisivel2{
+    flex-direction: column;
+    align-items: center;
+}
+
+.invisivel1{
+    display: flex;
+    align-items: flex-start;
+}
+
+.invisivel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.neta11{
+    background-color: rgb(255, 115, 0);
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bisneta4{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.invisivel3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.neta12{
+    background-color: brown;
+    width: 60px;
+    height: 25px;
+}
+
+.neta13{
+    background-color: yellow;
+    width: 60px;
+    height: 25px;
 }

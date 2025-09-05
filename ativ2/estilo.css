@@ -1,0 +1,116 @@
+.invisivel{
+    display: flex;
+    width: 260px;
+    height: 130px;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.invisivel2{
+    display: flex;
+    width: 80px;
+    height: 130px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+
+space-between: The first item is at the start, the last item is at the end, and the remaining space is distributed evenly between the items.
+space-around: Items have equal space on both sides, resulting in half the space at the ends compared to the space between items.
+space-evenly: Items and the space at the ends have equal distribution of available space. */
+
+.invisivel3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 340px;
+    height: 130px;
+}
+
+.bolinha{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid ;
+    border-color: red;
+}
+
+.azul{
+    display: flex;
+    width: 340px;
+    height: 100px;
+    background-color: rgb(0, 0, 87);
+    justify-content: space-around;
+    align-items: center;
+}
+.cinza{
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde{
+    width: 80px;
+    height: 130px;
+    background-color: rgb(1, 75, 50);
+}
+
+.amarelo{
+    width: 160px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.bloco1{
+    background-color: rgba(255, 136, 0, 0.808);
+    width: 70px;
+    height: 40px;
+}
+
+.bloco2{
+    background-color: rgb(168, 52, 71);
+    width: 70px;
+    height: 40px;
+}
+
+.reta-azul{
+    width: 180px;
+    height: 20px;
+    background-color: blue;
+}
+
+.reta-verm{
+    width: 60px;
+    height: 20px;
+    background-color: red;
+}
+.invisivel4{
+    width: 220px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.invisivel5{
+    width: 110px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.invisivel6{
+    display: flex;
+    width: 330px;
+    height: 130px;
+    flex-direction: row;
+    justify-content: space-around;
+}
